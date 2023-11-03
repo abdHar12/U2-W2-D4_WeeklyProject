@@ -43,3 +43,44 @@ footer > div > div {
     width: 60%;
   }
 }
+
+@media screen and (min-width: 768px) {
+  footer > div {
+    width: 75%;
+  }
+}
+
+header img {
+  width: 100px;
+}
+#avatar_column {
+  align-self: self-start;
+  width: 25%;
+}
+#profile-settings-div {
+  width: 65%;
+}
+#maturity-settings-st-button {
+  background-color: #333333;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+#save-cancel-settings-div > button {
+  width: 30%;
+}
+
+.set-width {
+  width: 95% !important;
+}
+
+@media screen and (min-width: 768px) {
+  .set-width {
+    width: 75% !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .set-width {
+    width: 50% !important;
+  }
+}
