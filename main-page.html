@@ -26,7 +26,7 @@
         <div class="d-flex align-items-center">
           <img src="./assets/netflix_logo.png" alt="Netflix logo" />
           <ul
-            class="mb-0 ps-0 d-none d-md-flex flex-direction-row justify-content-between"
+            class="mb-0 ps-0 d-none d-md-flex flex-direction-row justify-content-between gap-4"
           >
             <li class="d-flex">Home</li>
             <li class="d-flex">TV Shows</li>
@@ -40,7 +40,7 @@
           <span>KIDS</span>
           <i class="bi bi-bell-fill"></i>
 
-          <div class="dropdown">
+          <div class="dropdown rounded-0 d-flex align-items-center">
             <div
               class="btn btn-dark dropdown-toggle"
               type="button"
@@ -49,10 +49,17 @@
             >
               <img src="./assets/avatar.png" alt="avatar logo" />
             </div>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <ul class="dropdown-menu bg-dark border border-secondary">
+              <li>
+                <a class="dropdown-item text-bg-dark" href="./profile-page.html"
+                  >Edit profile</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item text-bg-dark" href="#"
+                  >Accout settings</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -203,7 +210,7 @@
         <i class="p-2 bi bi-instagram"></i>
         <i class="p-2 bi bi-facebook"></i>
         <i class="p-2 bi bi-twitter-x"></i>
-        <i class="bi bi-youtube"></i>
+        <i class="p-2 bi bi-youtube"></i>
         <div class="row">
           <div class="col-3">
             <div class="p-2">Audio and subtitles</div>
@@ -226,6 +233,18 @@
             <div class="p-2">Corporate information</div>
           </div>
           <div class="col-3"><div class="p-2">Contact us</div></div>
+        </div>
+        <div class="p-2">
+          <button
+            type="button"
+            class="btn text-secondary px-3 border border-secondary rounded-0 mt-2 fw-light"
+          >
+            Service code
+          </button>
+          <p class="mt-2">
+            <i class="bi bi-c-circle"></i>1997-2019 Netflix, inc.
+            (i-ugygr7298hdw6)
+          </p>
         </div>
       </div>
     </footer>
