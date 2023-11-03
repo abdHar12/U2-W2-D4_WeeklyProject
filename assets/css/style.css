@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin-top: 0;
+}
+
+#navigation-bar {
+  width: 100%;
+}
+#navigation-bar .container-fluid > div:first-of-type {
+  flex-grow: 2;
+  gap: 1rem;
+}
+nav:last-of-type {
+  width: 100%;
+}
+#navigation-bar .container-fluid > div:last-of-type {
+  gap: 0.5rem;
+}
+#navigation-bar .container-fluid > div:first-of-type > ul {
+  gap: 1rem;
+}
+#navigation-bar .container-fluid > div > img {
+  width: 100px;
+}
+.bg-black {
+  background-color: black !important;
+}
+.container-fluid .dropdown img {
+  width: 30px;
+}
+footer > div > div {
+  font-size: 0.5rem;
+}
+@media screen and (min-width: 786px) {
+  footer > div {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 992px) {
+  footer > div {
+    width: 60%;
+  }
+}
